@@ -39,6 +39,7 @@ public class Main extends Application {
             @Override
             public void handle(ActionEvent event) {
                 String a = String.valueOf(inputTextField.getParagraphs());
+                //转换处理
                 outputTextField.setText(a);
             }
         });
